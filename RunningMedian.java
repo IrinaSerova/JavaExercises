@@ -1,11 +1,11 @@
 package com.irinaserova;
+// Data Structures
 // Heaps: Find the Running Median
 // https://www.hackerrank.com/challenges/ctci-find-the-running-median/problem
 
 	import java.util.Scanner;
 	import java.util.PriorityQueue;
 	import java.util.Collections;
-
 
 
 	public class RunningMedian {

@@ -1,7 +1,6 @@
 package com.irinaserova;
 
 
-
 // Count Inversions in an array
 class Inversion {
 	static int arr[] = new int[]{1, 20, 6, 4, 5};

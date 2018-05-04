@@ -28,6 +28,7 @@ public class ContactsTrie {
 					current.size++;
 				} else {
 					//System.out.println("not found");
+
 					Node temp = new Node();
 					current.addChild(Name.charAt(i),temp);
 					current = temp;

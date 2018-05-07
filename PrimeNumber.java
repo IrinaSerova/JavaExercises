@@ -9,7 +9,7 @@ import java.util.*;
 public class PrimeNumber {
 
 	static boolean isPrime(int n) {
-		for(int i = 2; i<=Math.sqrt(n);i++) {
+		for(int i = 2; i<=Math.sqrt(n); i++) {
 			if( n%i == 0) {
 				return false;
 			}
@@ -22,15 +22,16 @@ public class PrimeNumber {
 		int numOfTests = scan.nextInt();
 		for (int i = 0; i < numOfTests; i++) {
 			int x = scan.nextInt();
-			String s;
+			String answer;
 			if (x >= 2 && isPrime(x)) {
-				s = "Prime";
+				answer = "Prime";
 			} else {
-				s = "Not prime";
+				answer = "Not prime";
 			} 
-			System.out.println(s);
-			scan.close();  
+			System.out.println(answer);
+			
 		}
+		scan.close();  
 	}
 }
 

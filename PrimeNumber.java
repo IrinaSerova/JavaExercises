@@ -2,7 +2,7 @@ package com.irinaserova;
 
 
 import java.util.*;
-// A prime is a natural number greater than  that has no positive divisors other than  and itself. 
+// A prime is a natural number greater than one that has no positive divisors other than one and itself. 
 //Given  integers, determine the primality of each integer 
 //and print whether it is Prime or Not prime on a new line.
 
@@ -33,7 +33,7 @@ public class PrimeNumber {
 				answer = "Not prime";
 			} 
 			System.out.println(answer);
-			
+
 		}
 		scan.close();  
 	}

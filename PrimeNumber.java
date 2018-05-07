@@ -6,6 +6,10 @@ import java.util.*;
 //Given  integers, determine the primality of each integer 
 //and print whether it is Prime or Not prime on a new line.
 
+
+//instead of checking till n, we can check till √n because a large factor of n 
+//must be a multiple of smaller factor that has been already checked.
+
 public class PrimeNumber {
 
 	static boolean isPrime(int n) {

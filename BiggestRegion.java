@@ -2,6 +2,8 @@ package com.irinaserova;
 // Depth-First Search (DFS) algorithm 
 // modify it to assign a unique number to each cell identified in a connected component
 
+import java.util.Scanner;
+
 // A connected component of an undirected graph is a subgraph 
 // in which every two vertices are connected to each other by a path(s),
 // and which is connected to no other vertices outside the subgraph.
@@ -38,5 +40,23 @@ public class BiggestRegion {
 		}
 		return maxRegion;
 	}
+	 /** Problem Setup **/
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
+        int[][] matrix = new int[n][m];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {          
+                matrix[i][j] = scanner.nextInt();
+            }
+        }
+        scanner.close();
+        
+        DFS solution = new DFS(n, m, matrix);
+        System.out.println(solution.solve());
+        
+    }
 }

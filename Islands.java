@@ -1,15 +1,13 @@
 package com.irinaserova;
 
-class Islands
-{
+class Islands{
 	//No of rows and columns
 	static final int ROW = 5, COL = 5;
 
 	// A function to check if a given cell (row, col) can
 	// be included in DFS
 	boolean isSafe(int M[][], int row, int col,
-				boolean visited[][])
-	{
+				boolean visited[][]){
 		// row number is in range, column number is in range
 		// and value is 1 and not yet visited
 		return (row >= 0) && (row < ROW) &&
@@ -19,8 +17,7 @@ class Islands
 
 	// A utility function to do DFS for a 2D boolean matrix.
 	// It only considers the 8 neighbors as adjacent vertices
-	void DFS(int M[][], int row, int col, boolean visited[][])
-	{
+	void DFS(int M[][], int row, int col, boolean visited[][]){
 		// These arrays are used to get row and column numbers
 		// of 8 neighbors of a given cell
 		int rowNbr[] = new int[] {-1, -1, -1, 0, 0, 1, 1, 1};
@@ -37,8 +34,7 @@ class Islands
 
 	// The main function that returns count of islands in a given
 	// boolean 2D matrix
-	int countIslands(int M[][])
-	{
+	int countIslands(int M[][]){
 		// Make a bool array to mark visited cells.
 		// Initially all cells are unvisited
 		boolean visited[][] = new boolean[ROW][COL];
@@ -61,8 +57,7 @@ class Islands
 	}
 
 	// Driver method
-	public static void main (String[] args) throws java.lang.Exception
-	{
+	public static void main (String[] args) throws java.lang.Exception{
 		int M[][]= new int[][] {{1, 1, 0, 0, 0},
 								{0, 1, 0, 0, 1},
 								{1, 0, 0, 1, 1},
@@ -72,4 +67,4 @@ class Islands
 		Islands I = new Islands();
 		System.out.println("Number of islands is: "+ I.countIslands(M));
 	}
-} //Contributed by Aakash Hasija
+} 

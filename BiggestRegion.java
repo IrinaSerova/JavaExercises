@@ -1,5 +1,6 @@
 package com.irinaserova;
-
+// Depth-First Search (DFS) algorithm 
+// modify it to assign a unique number to each cell identified in a connected component
 public class BiggestRegion {
 	public static int getSize(int[][] matrix, int row, int column) {
 		if (row<0 || column < 0 || row >= matrix.length || column >= matrix[row].length) {

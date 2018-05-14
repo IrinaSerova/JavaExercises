@@ -1,6 +1,6 @@
 package com.irinaserova;
 
-
+// Connected Cell in a Grid 
 import java.util.*;
 
 public class DFS {

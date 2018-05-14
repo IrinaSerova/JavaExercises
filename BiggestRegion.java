@@ -1,6 +1,10 @@
 package com.irinaserova;
 // Depth-First Search (DFS) algorithm 
 // modify it to assign a unique number to each cell identified in a connected component
+
+// A connected component of an undirected graph is a subgraph 
+// in which every two vertices are connected to each other by a path(s),
+// and which is connected to no other vertices outside the subgraph.
 public class BiggestRegion {
 	public static int getSize(int[][] matrix, int row, int column) {
 		if (row<0 || column < 0 || row >= matrix.length || column >= matrix[row].length) {

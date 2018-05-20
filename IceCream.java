@@ -2,7 +2,8 @@ package com.irinaserova;
 
 import java.util.*;
 
-// Ice Cream Parlor - HackerRank
+// Ice Cream Parlor -
+//HackerRank
 // https://www.hackerrank.com/challenges/ctci-ice-cream-parlor/problem
 
 public class IceCream {

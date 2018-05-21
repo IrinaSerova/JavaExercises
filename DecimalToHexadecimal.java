@@ -1,9 +1,9 @@
 package com.irinaserova;
-
+// Write a Java program to convert a decimal number to hexadecimal number.
 
 import java.util.Scanner;
 
-// Write a Java program to convert a decimal number to hexadecimal number.
+
 public class DecimalToHexadecimal {
 	private static Scanner in;
 

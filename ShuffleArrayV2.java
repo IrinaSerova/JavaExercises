@@ -20,7 +20,6 @@ public class ShuffleArrayV2 {
 		for(int i = 0; i < arrayN.length; i++) {
 			System.out.print(arrayN[i] + " ");
 		}
-	
 		
 
 	}

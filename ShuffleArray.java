@@ -3,11 +3,9 @@ package com.irinaserova;
 
 import java.util.Random;
 import java.util.Arrays;
-public class ShuffleArray 
-{
+public class ShuffleArray {
     // A Function to generate a random permutation of arr[]
-    static void randomize( int arr[], int n)
-    {
+    static void randomize( int arr[], int n) {
         // Creating a object for Random class
         Random r = new Random();
          
@@ -28,8 +26,7 @@ public class ShuffleArray
     }
      
     // Driver Program to test above function
-    public static void main(String[] args) 
-    {
+    public static void main(String[] args) {
          
          int[] arr = {1, 2, 3, 4, 5, 6, 7, 8};
          int n = arr.length;

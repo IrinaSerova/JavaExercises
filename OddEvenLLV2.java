@@ -1,7 +1,4 @@
 package com.irinaserova;
-import java.util.*;
-
-import com.irinaserova.OddEvenLL.ListNode;
 
 public class OddEvenLLV2 {
 	public ListNode oddEvenList(ListNode head) {

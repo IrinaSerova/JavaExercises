@@ -31,7 +31,7 @@ public class ClassesObjects {
 	public static void main(String[] args) {
 		person person1 = new person();
 		person1.age = 18;
-		person1.name = "Jupiter";
+		person1.name = "Alex";
 		System.out.print(person1.age);
 		person1.speak();
 		person1.sayHello();

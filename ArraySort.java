@@ -2,7 +2,7 @@ package com.irinaserova;
 
 import java.util.Arrays;
 import java.util.Comparator;
-// comparing Dogs by size
+
  
 class Dog{
 	int size;	

@@ -1,6 +1,7 @@
 package com.irinaserova;
 // Depth-First Search (DFS) algorithm 
-// modify it to assign a unique number to each cell identified in a connected component
+// modify it to assign a unique number to each 
+// cell identified in a connected component
 
 import java.util.Scanner;
 

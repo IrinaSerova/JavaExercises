@@ -1,7 +1,6 @@
 package com.irinaserova;
 
-
-	public class ArrayRotateV2 {
+public class ArrayRotateV2 {
 	    public void rotate(int[] nums, int k) {
 	        k = k % nums.length;
 	        int count = 0;

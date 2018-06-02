@@ -16,15 +16,13 @@ public class DecimalToBinary {
 
 		quot = dec_num;
 
-		while(quot != 0)
-		{
+		while(quot != 0){
 			bin_num[i++] = quot%2;
 			quot = quot/2;
 		}
 
 		System.out.print("Binary number is: ");
-		for(j=i-1; j>0; j--)
-		{
+		for(j=i-1; j>0; j--){
 			System.out.print(bin_num[j]);
 		}
 		System.out.print("\n");

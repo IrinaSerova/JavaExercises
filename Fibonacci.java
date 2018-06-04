@@ -10,7 +10,13 @@ public class Fibonacci {
     		return (n > 2) ? fibonacci(n - 1) + fibonacci(n - 2) : 1;    
     }
 
-
+//    if(n > 2) {
+//        return fibonacci(n - 1) + fibonacci(n - 2);
+//    }
+//    else {
+//        // This is the equivalent of fibonacci(0) + fibonacci(1) = 0 + 1 = 1
+//        return 1;
+//    }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();

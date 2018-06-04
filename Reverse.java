@@ -13,7 +13,7 @@ public class Reverse {
 			for (int i = 0; i< numbers.length -1; i++)
 				a[i] =numbers[i+1];
 			reversePrint(a);
-			System.out.println(" ");
+			System.out.println(numbers[0] + " ");
 		}
 	}
 	public static void main(String[] args) {

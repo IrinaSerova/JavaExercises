@@ -5,9 +5,18 @@ import java.util.*;
 
 public class Fibonacci {
 
+//    public static int fibonacci(int n) {
+//    	// ? : Ternary Operator
+//    		return (n > 2) ? fibonacci(n - 1) + fibonacci(n - 2) : 1;    
+//    }
+    
     public static int fibonacci(int n) {
-    	// ? : Ternary Operator
-    		return (n > 2) ? fibonacci(n - 1) + fibonacci(n - 2) : 1;    
+    	    if (n<2) { // base case
+    	    	return 1;
+    	    }
+    	    else {
+    	    	return fibonacci(n-1) + fibonacci(n-2);
+    	    }
     }
 
 //    if(n > 2) {

@@ -1,5 +1,8 @@
 package com.irinaserova;
-
+// Linear Scan
+//nums[j] and nums[j + 1]nums[j+1] are never equal
+// if it is larger than the next number nums[i+1]nums[i+1] for determining 
+// if nums[i]nums[i] is the peak element
 public class FindPeak {
 	public static int findPeakElement(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {
@@ -15,3 +18,6 @@ public class FindPeak {
         		findPeakElement(nums));
     }
 }
+//Time complexity : O(n)O(n). We traverse the numsnums array of size nn once only.
+//
+//Space complexity : O(1)O(1). Constant extra space is used.

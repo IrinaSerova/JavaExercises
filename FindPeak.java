@@ -10,7 +10,7 @@ public class FindPeak {
     }
 	public static void main (String[] args){
         int arr[] = {1, 3, 20, 4, 1, 0};
-        int n = arr.length;
+        
         System.out.println("Index of a peak point is " +
         		findPeakElement(arr));
     }

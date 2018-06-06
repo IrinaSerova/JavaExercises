@@ -1,5 +1,6 @@
 package com.irinaserova;
 
+// Recursive Binary Search
 public class FinPeakV2 {
 	public static int findPeakElement(int[] nums) {
 		return search(nums, 0, nums.length - 1);
@@ -19,3 +20,4 @@ public class FinPeakV2 {
         		findPeakElement(nums));
     }
 }
+// Time complexity : O\big(log_2(n)\big)O(log​2(n))

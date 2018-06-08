@@ -11,7 +11,7 @@ class MatrixII{
 	   and returns true, otherwise prints "not found"
 	   and returns false */
 	private static void search(int[][] mat, int x) {
-		int n = 0;
+		int n = 4;
 		int i = 0, j = n-1;  //set indexes for top right
 		// element
 
@@ -32,10 +32,12 @@ class MatrixII{
 	}
 	// driver program to test above function
 	public static void main(String[] args) {
+	
 		int mat[][] = { {10, 20, 30, 40},
 				{15, 25, 35, 45},
 				{27, 29, 37, 48},
 				{32, 33, 39, 50} };
+		
 
 		search(mat, 29);
 	}

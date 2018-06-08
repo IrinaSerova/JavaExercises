@@ -10,15 +10,13 @@ class MatrixII{
 	   element is found, then prints its position 
 	   and returns true, otherwise prints "not found"
 	   and returns false */
-	private static void search(int[][] mat, int n, int x) {
-
+	private static void search(int[][] mat, int x) {
+		int n = 0;
 		int i = 0, j = n-1;  //set indexes for top right
 		// element
 
-		while ( i < n && j >= 0 )
-		{
-			if ( mat[i][j] == x )
-			{
+		while ( i < n && j >= 0 ){
+			if ( mat[i][j] == x ){
 				System.out.print("n Found at "+ i + " " + j);
 				return;
 			}
@@ -39,7 +37,7 @@ class MatrixII{
 				{27, 29, 37, 48},
 				{32, 33, 39, 50} };
 
-		search(mat, 4, 29);
+		search(mat, 29);
 	}
 
 }

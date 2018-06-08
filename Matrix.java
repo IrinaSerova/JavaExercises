@@ -18,7 +18,7 @@ public class Matrix {
 			int midY=mid%n;
 
 			if(matrix[midX][midY]==target) {
-				System.out.print("n Found at " + target);
+				System.out.print(target + " Found");
 				return true;
 			}
 
@@ -38,7 +38,7 @@ public class Matrix {
                          {27, 29, 37, 48},
                          {32, 33, 39, 50} };
           
-         searchMatrix(mat, 15);
+         searchMatrix(mat, 20);
       }
          
 }

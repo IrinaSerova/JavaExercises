@@ -3,14 +3,18 @@ package com.irinaserova;
 public class MatrixIII {
 
 	public static boolean searchMatrix(int[][] matrix, int target) {
-		int i = matrix.length-1;
+		//start twith top right element
+		int i = matrix.length-1; 
 		int j = 0;
+		// compare the element with target
 		while(i >= 0 && j < matrix[0].length) {
 			if(matrix[i][j] == target) {
 				System.out.print(target + " found at row "+ i + "  and column "  + j);
 				return true;
 			}
+		//  if matrix[i][j] > target move it to left
 			else if(matrix[i][j] > target) i--;
+		//  if matrix[i][j] < target move it to down
 			else j++;
 		}
 		System.out.print(target + "  not found");

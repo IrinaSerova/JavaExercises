@@ -7,7 +7,7 @@ public class MatrixIII {
 		int j=0;
 		while(i >= 0 && j < matrix[0].length) {
 			if(matrix[i][j] == target) {
-				System.out.print("n Found at "+ i + " " + j);
+				System.out.print(target + " found at row "+ i + "  and column "  + j);
 				return true;
 			}
 			else if(matrix[i][j] > target) i--;

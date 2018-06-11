@@ -1,7 +1,7 @@
 package com.irinaserova;
 
 public class LIv2 {
-	public static int lengthOfLIS(int[] nums) {
+	public static int lengthLI(int[] nums) {
         return lengthofLIS(nums, Integer.MIN_VALUE, 0);
     }
 
@@ -20,6 +20,6 @@ public class LIv2 {
         int arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
 //        int n = arr.length;
         System.out.println("Length of lis is "
-                           + lengthOfLIS(arr) + "n");
+                           + lengthLI(arr) + "n");
     }
 }

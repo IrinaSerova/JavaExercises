@@ -3,8 +3,7 @@ package com.irinaserova;
 public class BinarySearch {
  // Returns index of x if it is present in arr[l..
  // r], else return -1
- int binarySearch(int arr[], int l, int r, int x)
- {
+ int binarySearch(int arr[], int l, int r, int x) {
      if (r>=l) {
          int mid = l + (r - l)/2;
 

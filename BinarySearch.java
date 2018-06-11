@@ -1,14 +1,11 @@
 package com.irinaserova;
 
 public class BinarySearch {
-
-
  // Returns index of x if it is present in arr[l..
  // r], else return -1
  int binarySearch(int arr[], int l, int r, int x)
  {
-     if (r>=l)
-     {
+     if (r>=l) {
          int mid = l + (r - l)/2;
 
          // If the element is present at the 
@@ -32,8 +29,7 @@ public class BinarySearch {
  }
 
  // Driver method to test above
- public static void main(String args[])
- {
+ public static void main(String args[]) {
      BinarySearch ob = new BinarySearch();
      int arr[] = {2,3,4,10,40};
      int n = arr.length;

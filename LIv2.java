@@ -1,6 +1,6 @@
 package com.irinaserova;
 // Longest Increasing Subsequenc
-
+// Brute Force
 public class LIv2 {
 	public static int lengthLI(int[] nums) {
         return lengthLI(nums, Integer.MIN_VALUE, 0);

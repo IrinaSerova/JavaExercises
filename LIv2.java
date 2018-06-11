@@ -23,3 +23,5 @@ public class LIv2 {
                            + lengthLI(arr) + " n");
     }
 }
+//Time complexity : O(2^n)O(2
+//Space complexity : O(n^2)O(n2)

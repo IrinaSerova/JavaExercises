@@ -22,7 +22,7 @@ public class MaxWterV2 {
 			return maxArea;
 	}
 	public static void main(String[] args) {
-        int a[] = {1, 5, 4, 3};
+        int a[] = {3, 5, 7, 3};
                      
         System.out.print(maxArea(a));	     
     }

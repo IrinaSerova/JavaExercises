@@ -3,7 +3,7 @@ package com.irinaserova;
 public class MaxWterV2 {
 	public static int maxArea(int[] height) {
 		int maxArea = 0;
-		if (height == null || height.length <2) {
+		if (height == null || height.length < 2) {
 			return maxArea;
 		}
 		int left = 0;
@@ -13,17 +13,17 @@ public class MaxWterV2 {
 				maxArea = Math.max(maxArea, area);
 				if (height[left] < height[right]) {
 					left ++;
-					
+
 				} else {
 					right --;
 				}
 			}
 		}
-			return maxArea;
+		return maxArea;
 	}
 	public static void main(String[] args) {
-        int a[] = {3, 5, 7, 3};
-                     
-        System.out.print(maxArea(a));	     
-    }
+		int a[] = {3, 5, 7, 3};
+
+		System.out.print(maxArea(a));	     
+	}
 }

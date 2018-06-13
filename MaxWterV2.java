@@ -15,7 +15,7 @@ public class MaxWterV2 {
 					left ++;
 					
 				} else {
-					right ++;
+					right --;
 				}
 			}
 		}

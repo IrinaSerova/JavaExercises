@@ -1,13 +1,7 @@
 package com.irinaserova;
 
-public class FindIslandsV2 {
-	// Java program to count islands in boolean 2D matrix
-	import java.util.*;
-	import java.lang.*;
-	import java.io.*;
-	 
-	class Islands
-	{
+ 
+	class FindIslandsV2{
 	    //No of rows and columns
 	    static final int ROW = 5, COL = 5;
 	 

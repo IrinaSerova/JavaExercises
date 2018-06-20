@@ -35,7 +35,7 @@ public class QuickSortV2 {
 
 
 		for(int i=0;i<left.size();i++) {
-			left.add(arr[i]);
+			
 			System.out.print(left.get(i)+" ");
 		}
 		for(int i=0;i<equal.size();i++) {
@@ -44,9 +44,10 @@ public class QuickSortV2 {
 		}
 
 		for(int i=0;i<right.size();i++) {
-			right.add(arr[i]);
+		
 			System.out.print(right.get(i)+" ");
 		}
+		return arr;
 		
 		
 		

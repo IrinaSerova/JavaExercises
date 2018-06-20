@@ -11,59 +11,80 @@ import java.util.regex.*;
 
 public class QuickSortV2 {
 
-    // Complete the quickSort function below.
-    static int[] quickSort(int[] arr) {
-    int temp=0;
-    int pivot=arr[0];
-    int pivotIndex=arr.length-1;
-    for(int i=arr.length-1;i>=1;i--){
-        if(arr[i]>=pivot){
-            temp=arr[i];
-            arr[i]=arr[pivotIndex];
-            arr[pivotIndex]=temp;
-            pivotIndex-=1;
-        }
-    }
-    temp=arr[pivotIndex];
-    arr[pivotIndex]=arr[0];
-    arr[0]=temp;
-    System.out.print(arr);
-	return arr;  
+	// Complete the quickSort function below.
+	static int[] quickSort(int[] arr) {
+		
+	
+		int pivot = arr[0];
+		ArrayList<Integer> left = new ArrayList<Integer>();
+		ArrayList<Integer> equal = new ArrayList<Integer>();
+		ArrayList<Integer> right = new ArrayList<Integer>();
 
-    }
+		equal.add(pivot);
 
-    private static final Scanner scanner = new Scanner(System.in);
+		for (int i = 1; i < arr.length; i++) {
 
-    public static void main(String[] args) throws IOException {
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+			if (arr[i] < pivot)
+				left.add(arr[i]);
+			else if (arr[i] == pivot)
+				equal.add(arr[i]);	
+			else
+				right.add(arr[i]);
 
-        int n = scanner.nextInt();
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+		}
 
-        int[] arr = new int[n];
 
-        String[] arrItems = scanner.nextLine().split(" ");
-        scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+		for(int i=0;i<left.size();i++) {
+			left.add(arr[i]);
+			System.out.print(left.get(i)+" ");
+		}
+		for(int i=0;i<equal.size();i++) {
+			
+			System.out.print(equal.get(i)+" ");
+		}
 
-        for (int i = 0; i < n; i++) {
-            int arrItem = Integer.parseInt(arrItems[i]);
-            arr[i] = arrItem;
-        }
+		for(int i=0;i<right.size();i++) {
+			right.add(arr[i]);
+			System.out.print(right.get(i)+" ");
+		}
+		
+		
+		
+		
+	}
 
-        int[] result = quickSort(arr);
+	private static final Scanner scanner = new Scanner(System.in);
 
-        for (int i = 0; i < result.length; i++) {
-            bufferedWriter.write(String.valueOf(result[i]));
+	public static void main(String[] args) throws IOException {
+		BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
-            if (i != result.length - 1) {
-                bufferedWriter.write(" ");
-            }
-        }
+		int n = scanner.nextInt();
+		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        bufferedWriter.newLine();
+		int[] arr = new int[n];
 
-        bufferedWriter.close();
+		String[] arrItems = scanner.nextLine().split(" ");
+		scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        scanner.close();
-    }
+		for (int i = 0; i < n; i++) {
+			int arrItem = Integer.parseInt(arrItems[i]);
+			arr[i] = arrItem;
+		}
+
+		int[] result = quickSort(arr);
+
+		for (int i = 0; i < result.length; i++) {
+			bufferedWriter.write(String.valueOf(result[i]));
+
+			if (i != result.length - 1) {
+				bufferedWriter.write(" ");
+			}
+		}
+
+		bufferedWriter.newLine();
+
+		bufferedWriter.close();
+
+		scanner.close();
+	}
 }

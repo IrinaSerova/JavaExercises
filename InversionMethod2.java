@@ -31,8 +31,7 @@ class InversionMethod2 {
 		return inv_count;
 	}
 
-	/* This method merges two sorted arrays and returns inversion count in
-	       the arrays.*/
+	/* This method merges two sorted arrays and returns inversion count in the arrays.*/
 	static int merge(int arr[], int temp[], int left, int mid, int right)
 	{
 		int i, j, k;

@@ -6,7 +6,7 @@ import java.util.*;
 public class Fibonacci {
 
 //    public static int fibonacci(int n) {
-//    	// ? : Ternary Operator
+//    	 ? : Ternary Operator
 //    		return (n > 2) ? fibonacci(n - 1) + fibonacci(n - 2) : 1;    
 //    }
     

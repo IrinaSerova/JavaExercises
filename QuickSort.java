@@ -5,8 +5,10 @@ import java.util.*;
 
 public class QuickSort {
 
+	private static Scanner input;
+
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
+		input = new Scanner(System.in);
 		int n = input.nextInt();
 		int ar[] = new int[n];
 		for(int i = 0; i < n; i++)

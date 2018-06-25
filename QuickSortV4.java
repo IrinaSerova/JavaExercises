@@ -18,8 +18,7 @@ public class QuickSortV4 {
         ArrayList<Integer> left = new ArrayList<Integer>();
         ArrayList<Integer> right = new ArrayList<Integer>();
         int pivot = arr[0];
-        int counterLeft = 0;
-        int counterRight = 0;
+    
         for(int i=1; i< arr.length;i++){
             if(pivot >= arr[i]){
                 // left[counterLeft] = arr[i];

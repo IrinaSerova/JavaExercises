@@ -3,8 +3,7 @@ package com.irinaserova;
 
 class InversionMethod2 {
 
-	/* This method sorts the input array and returns the
-	       number of inversions in the array */
+	/* This method sorts the input array and returns the  number of inversions in the array */
 	static int mergeSort(int arr[], int array_size)
 	{
 		int temp[] = new int[array_size];

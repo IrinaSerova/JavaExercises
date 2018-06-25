@@ -1,8 +1,7 @@
 package com.irinaserova;
 
-import java.awt.*;
-import java.lang.Math;
-import java.util.Random;
+
+
 
 public class BankMain {
     public static void main(String[] args) {

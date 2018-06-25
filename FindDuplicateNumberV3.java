@@ -3,7 +3,7 @@ package com.irinaserova;
 
 class FindDuplicateNumberV3 {
     public int findDuplicate(int[] nums) {
-        // Find the intersection point of the two runners.
+        // Find the intersection point of the two runners
         int tortoise = nums[0];
         int hare = nums[0];
         do {

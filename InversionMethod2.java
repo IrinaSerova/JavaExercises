@@ -11,15 +11,13 @@ class InversionMethod2 {
 		return _mergeSort(arr, temp, 0, array_size - 1);
 	}
 
-	/* An auxiliary recursive method that sorts the input array and
-	      returns the number of inversions in the array. */
+	/* An auxiliary recursive method that sorts the input array and returns the number of inversions in the array. */
 	static int _mergeSort(int arr[], int temp[], int left, int right)
 	{
 		int mid, inv_count = 0;
 		if (right > left)
 		{
-			/* Divide the array into two parts and call _mergeSortAndCountInv()
-	           for each of the parts */
+			/* Divide the array into two parts and call _mergeSortAndCountInv() for each of the parts */
 			mid = (right + left)/2;
 
 			/* Inversion count will be sum of inversions in left-part, right-part

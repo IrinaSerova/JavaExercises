@@ -6,8 +6,10 @@ public class Trim {
 
 	public static void main(String[] args) {
 		String test = "   I love Java  ";
+		String upC = test.toUpperCase();
 		System.out.println(test.trim());
 		System.out.println(test.toUpperCase());
+		System.out.println(upC.trim());
 
 	}
 

@@ -1,12 +1,6 @@
 package com.irinaserova;
 
-
-//Java program to count number of
-//steps to reach a point
-import java.io.*;
-
-class MinSteps 
-{
+class MinSteps {
 
  // Function to count number of steps
  // required to reach a destination
@@ -15,8 +9,7 @@ class MinSteps
  // step -> value of last step taken
  // dest -> destination vertex
  static int steps(int source, int step,
-                             int dest)
- {
+                             int dest){
      // base cases
      if (Math.abs(source) > (dest)) 
          return Integer.MAX_VALUE;
@@ -39,8 +32,7 @@ class MinSteps
  }
 
  // Driver Code
- public static void main(String[] args)
- {
+ public static void main(String[] args){
      int dest = 11;
      System.out.println("No. of steps required"+
                              " to reach " + dest +

@@ -4,7 +4,7 @@ package com.irinaserova;
 import java.util.ArrayList;
 import java.util.Scanner;
  
-//to reach form a point (x1,y1) to (x2, y2) is to move abs(x2-x1) steps 
+//to reach from a point (x1,y1) to (x2, y2) is to move abs(x2-x1) steps 
 //in horizontal direction and abs(y2-y1) steps in vertical direction, 
 //but this is not the shortest path to reach (x2,y2). 
 //The best way would be to cover the maximum possible distance in diagonal direction and remaining in horizontal or vertical direction. 

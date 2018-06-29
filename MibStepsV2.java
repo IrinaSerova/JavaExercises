@@ -10,6 +10,13 @@ import java.util.Scanner;
 //The best way would be to cover the maximum possible distance in diagonal direction and remaining in horizontal or vertical direction. 
 //If we look closely this just reduces to maximum of abs(x2-x1) and abs(y2-y1).
 
+//Example
+//x1 = 5, y1= 20
+//x2 = 15, y2 = 15
+//
+//we first move diagonally to reach (10,15) this takes 5 steps and then we move 5 units in x direction, 
+//which again takes 5 steps. In total this is 10 steps which is equal to MAX(abs(15-5), abs(15-20))
+
 public class MibStepsV2 {
 
     public static void main(String args[]){

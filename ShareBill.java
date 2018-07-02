@@ -8,7 +8,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-
 public class ShareBill {
 
     static HashMap parm;
@@ -22,9 +21,7 @@ public class ShareBill {
         parm.put("D", 25.0);
         parm.put("E", -20.0);
         parm.put("F", -5.0);
-
         findPath(parm);
-
 
     }
 

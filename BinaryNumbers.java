@@ -4,7 +4,6 @@ package com.irinaserova;
 import java.util.Scanner;
 
 // Write a Java program to add two binary numbers.
-
 // Input first binary number: 100010
 // Input second binary number: 110010
 public class BinaryNumbers {

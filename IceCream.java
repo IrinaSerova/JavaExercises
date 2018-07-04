@@ -2,7 +2,9 @@ package com.irinaserova;
 
 import java.util.*;
 
-// Ice Cream Parlor HackerRank
+// Ice Cream Parlor 
+
+//HackerRank
 
 
 public class IceCream {

@@ -1,5 +1,6 @@
 package com.irinaserova;
 
+
 public class ArrayRotateV3 {
 	public void rotate(int[] nums, int k) {
         k %= nums.length;

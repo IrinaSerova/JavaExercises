@@ -1,8 +1,5 @@
 package com.irinaserova;
 
-
-
-
 public class BankMain {
     public static void main(String[] args) {
         Bank myBankAccount = new Bank(4141,

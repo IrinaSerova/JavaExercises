@@ -2,7 +2,8 @@ package com.irinaserova;
 
 import java.util.*;
 
-// Ice Cream Parlor -
+// Ice Cream Parlor 
+
 //HackerRank
 
 
@@ -13,7 +14,6 @@ public class IceCream {
 			System.out.println(-1 + " " + -1);
 			return;
 		}
-
 		HashMap<Integer, Integer> hashMap = new HashMap<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] < money) {

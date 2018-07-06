@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class MaxPoints {
 	public int maxPoints(Point[] points) {
+		Point[] points = {ArrayList<>}
 	    if(points == null || points.length == 0) return 0;
 	 
 	    HashMap<Double, Integer> result = new HashMap<Double, Integer>();

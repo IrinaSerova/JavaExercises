@@ -4,8 +4,7 @@ public class GridPathV2 {
 	// Returns count of possible paths to reach 
 	// cell at row number m and column number n from
 	//  the topmost leftmost cell (cell at 1, 1)
-	static int uniquePaths(int a, int b)
-	{
+	static int uniquePaths(int a, int b){
 		// Create a 2D table to store results 
 		// of subproblems
 		int count[][] = new int[a][b];
@@ -23,8 +22,7 @@ public class GridPathV2 {
 		// Calculate count of paths for other 
 		// cells in bottom-up manner using
 		// the recursive solution
-		for (int i = 1; i < a; i++)
-		{
+		for (int i = 1; i < a; i++){
 			for (int j = 1; j < b; j++)
 
 				// By uncommenting the last part the 
@@ -35,8 +33,7 @@ public class GridPathV2 {
 		}
 		return count[a-1][b-1];
 	}
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 		System.out.println(uniquePaths(3, 3));
 	}
 }

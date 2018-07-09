@@ -19,7 +19,7 @@ public class GridPath {
 	}
 	public static void main(String args[])
 	{
-		System.out.println(uniquePaths(4, 3));
+		System.out.println(uniquePaths(2, 1));
 	}
 }
 

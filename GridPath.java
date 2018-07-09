@@ -10,8 +10,7 @@ public class GridPath {
           either right or down reducing one row or one column respectively
           and adding that way in answer*/
 
-        // If diagonal movements are allowed then 
-        // the last addition is required.
+        // If diagonal movements are allowed then the last addition is required.
 		else{
 			int ans = 0;
 			ans = uniquePaths(a-1,b)+uniquePaths(a,b-1);

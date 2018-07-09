@@ -5,6 +5,7 @@ package com.irinaserova;
 
 public class GridPath {
 	public static int uniquePaths(int a, int b) {
+		// 1 row or 1 column 
 		if(a==1 || b==1)
 			return 1;
 

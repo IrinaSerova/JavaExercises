@@ -1,7 +1,7 @@
 package com.irinaserova;
 
 public class GridPath {
-	public int uniquePaths(int a, int b) {
+	public static int uniquePaths(int a, int b) {
 		/* If either 1 row or 1 column are there then the only way to end
            is to traverse through that row or column respectively.*/
 		if(a==1 || b==1)
@@ -14,6 +14,11 @@ public class GridPath {
 			ans = uniquePaths(a-1,b)+uniquePaths(a,b-1);
 			return ans;
 		}
+		
 	}
+	public static void main(String args[])
+    {
+       System.out.println(uniquePaths(3, 3));
+    }
 }
 

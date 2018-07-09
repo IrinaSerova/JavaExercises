@@ -21,6 +21,7 @@ public class MaxPoints {
 	                    duplicate++;
 	                }else{
 	                    vertical++;
+	                    
 	                }
 	            }else{
 	                double slope = points[j].y == points[i].y ? 0.0

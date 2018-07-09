@@ -1,11 +1,10 @@
 package com.irinaserova;
 
-// count all possible paths from top left to bottom right
+// count all possible paths from top left to bottom right to reach 
+// cell at row number a and column number b
 
 public class GridPath {
 	public static int uniquePaths(int a, int b) {
-		/* If either 1 row or 1 column are there then the only way to end
-           is to traverse through that row or column respectively.*/
 		if(a==1 || b==1)
 			return 1;
 

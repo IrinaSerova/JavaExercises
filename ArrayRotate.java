@@ -1,7 +1,6 @@
 package com.irinaserova;
 // Given an array, 
-// rotate the array to the right by k steps
-// where k is non-negative.
+// rotate the array to the right by k steps where k is non-negative.
 
 public class ArrayRotate {
     public void rotate(int[] nums, int k) {

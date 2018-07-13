@@ -24,11 +24,8 @@ public class GridPathV2 {
 		// the recursive solution
 		for (int i = 1; i < a; i++){
 			for (int j = 1; j < b; j++)
-
-				// By uncommenting the last part the 
-				// code calculatest he total possible paths 
-				// if the diagonal Movements are allowed
-				count[i][j] = count[i-1][j] + count[i][j-1]; //+ count[i-1][j-1];
+				
+				count[i][j] = count[i-1][j] + count[i][j-1]; 
 
 		}
 		return count[a-1][b-1];

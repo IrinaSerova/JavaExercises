@@ -22,7 +22,7 @@ public class AddNumber {
 	        result[0]=1;
 	        return result;
 	    }else{
-	       
+	        //int[] result = new int[digits.length];
 	        return digits;
 	    }
 	}

@@ -20,4 +20,4 @@ public class FindPeak {
 }
 //Time complexity : O(n)O(n). We traverse the numsnums array of size nn once only.
 
-// Space complexity : O(1)O(1). Constant extra space is used.
+Space complexity : O(1)O(1). Constant extra space is used.

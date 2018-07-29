@@ -1,4 +1,4 @@
-//package com.irinaserova;
+package com.irinaserova;
 
 public class Bank {
     private int account_number;

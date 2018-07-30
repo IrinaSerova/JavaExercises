@@ -2,7 +2,7 @@ package com.irinaserova;
 
 
 public class QuickSort6 {
-	public static int[] Array={10, 34,2, 115,7};
+	public static int[] Array={10, 34, 2, 115,7};
 	static void swap(int num1, int num2){
 		int temp = Array[num1];
 		Array[num1] = Array[num2];
@@ -13,19 +13,19 @@ public class QuickSort6 {
 		int high = right;
 		while(true){
 			while(Array[++low]<pivot){
-				//do nothing
+				
 			}
-			while(high>0 && Array[--high]>pivot){
-				//do nothing
+			while(high > 0 && Array[--high]>pivot){
+				
 			}
-			if(low>=high){
+			if(low >= high){
 				break;
 			}
 			else{
-				swap(low,high);
+				swap(low, high);
 			}
 		}
-		swap(low,right);
+		swap(low, right);
 		return low;
 	}
 	static void quicksort(int left, int right){

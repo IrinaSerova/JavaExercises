@@ -1,7 +1,7 @@
 package com.irinaserova;
 //
 //Iterative Quick Sort
-//Following is a typical recursive implementation of Quick Sort that uses last element as pivot. 
+// recursive implementation of Quick Sort that uses last element as pivot. 
 public class QuickSort6 {
 	public static int[] Array={10, 34, 2, 115,7};
 	static void swap(int num1, int num2){

@@ -2,47 +2,37 @@ package com.irinaserova;
 
 
 public class QuickSort6 {
-	public static int[] Array={85,78,14,52,25,63,99,77,42,33};
-	static void swap(int num1, int num2)
-	{
+	public static int[] Array={10, 34,2, 115,7};
+	static void swap(int num1, int num2){
 		int temp=Array[num1];
 		Array[num1]=Array[num2];
 		Array[num2]=temp;
 	}
-	static int partition(int left, int right, int pivot)
-	{
-		int lo=left-1;
-		int hi=right;
-		while(true)
-		{
-			while(Array[++lo]<pivot)
-			{
+	static int partition(int left, int right, int pivot){
+		int low = left-1;
+		int high=right;
+		while(true){
+			while(Array[++low]<pivot){
 				//do nothing
 			}
-			while(hi>0 && Array[--hi]>pivot)
-			{
+			while(high>0 && Array[--high]>pivot){
 				//do nothing
 			}
-			if(lo>=hi)
-			{
+			if(low>=high){
 				break;
 			}
-			else
-			{
-				swap(lo,hi);
+			else{
+				swap(low,high);
 			}
 		}
-		swap(lo,right);
-		return lo;
+		swap(low,right);
+		return low;
 	}
-	static void quicksort(int left, int right)
-	{
-		if(right-left<=0)
-		{
+	static void quicksort(int left, int right){
+		if(right-left<=0){
 			return;
 		}
-		else
-		{
+		else{
 			int pivot=Array[right];
 			int partitionPoint =partition( left,  right,  pivot);
 			quicksort(left, partitionPoint-1);
@@ -56,8 +46,7 @@ public class QuickSort6 {
 			System.out.println(Array[i]);
 		}
 	}
-	public static void main(String args[])
-	{
+	public static void main(String args[]){
 	
 		quicksort(0,Array.length-1);
 		traverse();

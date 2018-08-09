@@ -30,9 +30,9 @@ public class StringCounter {
 		}
 		System.out.println("The string is: " + test);
 		System.out.println("Letters: " + letter);
-		System.out.println("Spaces: " + letter);
-		System.out.println("Letters: " + letter);
-		System.out.println("Letters: " + letter);
+		System.out.println("Spaces: " + space);
+		System.out.println("Numbers: " + num);
+		System.out.println("Others symbols: " + other);
 		
 	}
 	

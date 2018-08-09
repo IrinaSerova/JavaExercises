@@ -3,8 +3,9 @@ package com.irinaserova;
 // spaces, numbers and other characters of an input string.
 import java.util.Scanner;
 public class StringCounter {
+	public static String test = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.";
+	
 	public static void main(String[] args) {
-		String test = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.";
 		count(test);
 	}
 	public static void count(String x){
@@ -27,6 +28,11 @@ public class StringCounter {
 				other++;
 			}
 		}
+		System.out.println("The string is: " + test);
+		System.out.println("Letters: " + letter);
+		System.out.println("Spaces: " + letter);
+		System.out.println("Letters: " + letter);
+		System.out.println("Letters: " + letter);
 		
 	}
 	

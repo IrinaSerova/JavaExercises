@@ -12,7 +12,7 @@ public class SortArray {
 	    System.out.println("Sorted numeric array : "+Arrays.toString(arrayFirst));
 	    
 	    System.out.println("Original string array : "+Arrays.toString(arraySecond));
-	    Arrays.sort(my_array2);
+	    Arrays.sort(arraySecond);
 	    System.out.println("Sorted string array : "+Arrays.toString(arraySecond));
 	    
 	

@@ -10,10 +10,12 @@ public class SmallestNumber {
 		System.out.print("Input the second number: ");
 		double y = in.nextDouble();
 		System.out.print("Input the third number: ");
-
-
-		
-		
+		double z = in.nextDouble();
+		System.out.print("The smallest number is: " + smallest(x, y. z) + "\n");
+	
 	}
-
+	public static double smallest(double x, double y, double z) {
+	
+}
+	
 }

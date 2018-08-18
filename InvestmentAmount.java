@@ -1,5 +1,7 @@
 package com.irinaserova;
 
+import java.util.Scanner;
+
 public class InvestmentAmount {
 	public static void main(String[] args) {
 	    Scanner in = new Scanner(System.in); 

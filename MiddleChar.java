@@ -1,6 +1,6 @@
 package com.irinaserova;
 
-
+Write a Java method to display the middle character of a string.
 import java.util.Scanner;
 public class MiddleChar {
   public static void main(String[] args)

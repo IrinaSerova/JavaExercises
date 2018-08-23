@@ -1,5 +1,5 @@
 package com.irinaserova;
-
+Write a Java program to find the index of an array element.
 public class IndexArray {
 	public static int findIdex(int[] array, int t) {
 		if(array == null) return -1;

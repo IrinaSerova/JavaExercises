@@ -14,7 +14,8 @@ public class IndexArray {
 	
 public static void main(String[]arg) {
 	int[] array = {3,45,6,78,6,8,45};
-	System.out.println
+	System.out.println("Index position of 25 is: " + findIdex(array, 25));
+	System.out.println("Index position of 77 is: " + findIdex(array, 77));
 
 }
 }

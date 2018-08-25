@@ -1,11 +1,11 @@
 package com.irinaserova;
 
-public class DisplayDateTime {
-
 }
 import java.util.Scanner;
 
- 
+public class DisplayDateTime {
+
+
  public static void main(String[] args) {
 
         // Obtain the total milliseconds since midnight, Jan 1, 1970

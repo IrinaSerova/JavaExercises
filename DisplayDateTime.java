@@ -1,6 +1,6 @@
 package com.irinaserova;
 
-
+// Write a Java method to display the current date and time.
 import java.util.Scanner;
 
 public class DisplayDateTime {

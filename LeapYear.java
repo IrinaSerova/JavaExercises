@@ -1,4 +1,5 @@
 package com.irinaserova;
+Write a Java method to check whether an year (integer) entered by the user is a leap year or not.
 
 import java.util.Scanner;
 

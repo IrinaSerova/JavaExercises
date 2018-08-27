@@ -12,10 +12,10 @@ public class SecondLargestArray {
 					};
 			System.out.println("Original numeric array : "+Arrays.toString(my_array));            
 			Arrays.sort(my_array);
-int index = my_array.length-1;
-while(my_array[index]==my_array[my_array.length-1]){
-index--;
-}
-System.out.println("Second largest value: " + my_array[index]);
-}
+			int index = my_array.length-1;
+			while(my_array[index]==my_array[my_array.length-1]){
+				index--;
+			}
+			System.out.println("Second largest value: " + my_array[index]);
+	}
 }

@@ -1,6 +1,6 @@
 package com.irinaserova;
 
-find the second largest element in an array
+// find the second largest element in an array
 import java.util.Arrays;
 public class SecondLargestArray {
 public static void main(String[] args) {

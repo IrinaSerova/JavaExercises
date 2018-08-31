@@ -1,6 +1,6 @@
 package com.irinaserova;
 
-
+// Java program to associate the specified value with the specified key in a HashMap.
 import java.util.*;  
 
 public class HashMapExercise {  

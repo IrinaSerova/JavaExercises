@@ -14,7 +14,7 @@ public class IceCream {
 			System.out.println(-1 + " " + -1);
 			return;
 		}
-		HashMap<Integer, Integer> hashMap = new HashMap<>();
+		HashMapExercise<Integer, Integer> hashMap = new HashMapExercise<>();
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] < money) {
 				if (hashMap.containsKey(money - arr[i])) {

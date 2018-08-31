@@ -8,7 +8,7 @@ public class ContactsTrie {
 	private static Scanner in;
 	public static class Node{
 		public int size;
-		public HashMap<Character, Node> children = new HashMap<Character, Node>();
+		public HashMapExercise<Character, Node> children = new HashMapExercise<Character, Node>();
 		public Node(){
 			this.size = 1;
 		}

@@ -2,7 +2,8 @@ package com.irinaserova;
 
 
 import java.util.*;  
-public class HashMap {  
+
+public class HashMapExercise {  
   public static void main(String args[]) {  
   HashMap<Integer,String> hash_map= new HashMap<Integer,String>();  
   hash_map.put(1, "Red");

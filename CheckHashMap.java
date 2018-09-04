@@ -1,5 +1,5 @@
 package com.irinaserova;
-
+// Write a Java program to check whether a map contains key-value mappings (empty) or not
 
 import java.util.*;  
 public class CheckHashMap {  

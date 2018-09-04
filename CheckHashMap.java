@@ -1,10 +1,8 @@
 package com.irinaserova;
 
-public class CheckHashMap {
 
-}
 import java.util.*;  
-public class Example5 {  
+public class CheckHashMap {  
    public static void main(String args[]) {
   HashMap <Integer,String> hash_map = new HashMap <Integer,String> ();
   hash_map.put(1, "Red");

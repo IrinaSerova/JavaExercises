@@ -30,7 +30,7 @@ public class MoneyMinTransactions {
         expenseList.add(new Expense("Sarah", 400, "Sarah", "John", "Bob", "Alice"));
         expenseList.add(new Expense("John", 100, "Bob", "Alice"));
         //make list of who owes how much.
-        Map<String, Double> owes = new HashMapExercise<>();
+        Map<String, Double> owes = new HashMap<>();
         for(Expense e:expenseList){
             double owedAmt = e.amount/e.consumers.size();
             for(String c : e.consumers){

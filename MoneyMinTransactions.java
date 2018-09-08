@@ -1,6 +1,6 @@
 package com.irinaserova;
 
-import java.util.*;
+// import java.util.*;
 
 public class MoneyMinTransactions {
 
